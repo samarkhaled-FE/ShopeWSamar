@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="keywords" content="e-commerce, online shopping, fashion, electronics, deals, fast shipping, secure checkout">
+    <meta name="description" content="Discover the best deals on our e-commerce website. Shop for electronics, fashion, and more. Fast shipping and secure checkout.">
+    <meta name="author" content="Samar Khaled Abdel-Rady">
+   
+
+    <title>E-commerce</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="imges/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="imges/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imges/favicon-32x32.png" class="rounded-icon-tap">
+    <link rel="icon" type="image/png" sizes="16x16" href="imges/favicon-16x16.png">
+    <link rel="icon" href="imges/favicon.ico">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+
+    <!-- ===============================START-HEADER================================= -->
+    <header class="header">
+      <div class="logo">
+        <a href="ProductPages.html" class="logo-samar">
+          <img src="imges/logo-samar.jpg" alt="" class="logo-samar-img">
+          <div class="logo">Shop By Samar</div>
+        </a>
+        
+    </div>
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+
+        <div class="menu-container" id="menu-container">
+          <ul class="menu-items">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#shop">Shop</a></li>
+              <li><a href="#news">Blog</a></li>
+              <li><a href="#Testimonial">Testimonial</a></li>
+              <li><a href="#FAQ">FAQ</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+      </div>
+
+
+
+      <div class="cart-icon" id="cart-icon">
+          🛒 <span class="cart-count" id="cart-count">0</span>
+      </div>
+      
+  
+    
+    
+  </header>
+
+
+    <aside class="cart-sidebar" id="cart-sidebar">
+        <h2>Your Cart</h2>
+        <button class="close-btn" id="close-cart">&times;</button>
+        <div id="cart-items-container">
+            <!-- Cart  loaded here -->
+        </div>
+        <button class="checkout-btn" id="checkout-btn">Checkout</button>
+
+       
+    </aside>
+
+    <!-- ===============================END-HEADER================================= -->
+    <!-- ===============================START-MAIN================================= -->
+
+    <section id="home">
+        <div class="home_page ">
+            <div class="home_img ">
+                <img src="imges/banner-1.jpg" alt="img ">
+            </div>
+            <div class="home_txt">
+                <h3 class="collectio ">SUMMER COLLECTION</h3>
+                <h2>FALL - WINTER<br>Collection 2025</h2>
+              
+                <button><a href="#shop">SHOP NOW</a><i class='bx bx-right-arrow-alt'></i></button>
+
+                <div class="wrapper">
+                  <div class="icon facebook">
+                      <div class="tooltip">Facebook</div>
+                      <a href="https://www.facebook.com/samar998877" target="_blank">
+                          <i class="fab fa-facebook-f"></i>
+                      </a>
+                  </div>
+                  <div class="icon twitter">
+                      <div class="tooltip">Twitter</div>
+                      <a href="https://www.twitter.com/your_twitter_handle" target="_blank">
+                          <i class="fab fa-twitter"></i>
+                      </a>
+                  </div>
+                  <div class="icon instagram">
+                      <div class="tooltip">Instagram</div>
+                      <a href="https://www.instagram.com/your_instagram_handle" target="_blank">
+                          <i class="fab fa-instagram"></i>
+                      </a>
+                  </div>
+              </div>
+              
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===============================END-MAIN================================= -->
+
+    <!-- ===============================START-COLLECTION================================= -->
+
+  <section id="shop">
+        <div class="collections container">
+            <div class="content">
+                <img src="imges/jacket-1.jpg" alt="img" />
+                <div class="img-content">
+                    <p>Clothing Collections</p>
+                    <button><a href="#Clothes">SHOP NOW</a></button>
+                </div>
+            </div>
+            <div class="content2">
+                <img src="imges/sports-5.jpg" alt="img" />
+                <div class="img-content2">
+                    <p>Shoes Spring</p>
+                    <button><a href="#Shoes">SHOP NOW</a></button>
+                </div>
+            </div>
+            <div class="content3">
+                <img src="imges/jewellery-2.jpg" alt="img" />
+                <div class="img-content3">
+                    <p>Accessories</p>
+                    <button><a href="#Accessories">SHOP NOW</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===============================END-COLLECTION================================= -->
+    
+    <!-- ===============================START-PRODUCT-FOR-COLLECTION================================= -->
+
+<div class="product-section" id="Accessories">
+    <h2 class="styled-title" data-title="Accessories">Accessories</h2>
+    <div class="product-grid" id="product-grid-accessories">
+</div>
+
+
+<div class="product-section" id="Shoes">
+    <h2 class="styled-title" data-title="Shoes">Shoes</h2>
+    <div class="product-grid" id="product-grid-shoes"></div>
+</div>
+
+
+
+<div class="product-section" id="Clothes">
+    <h2 class="styled-title" data-title="Clothes">Clothes</h2>
+    <div class="product-grid" id="product-grid-clothes"></div>
+</div>
+
+
+    <!-- ===============================END-PRODUCT-FOR-COLLECTION================================= -->
+    <!-- ===============================START-BLOG-NWES================================= -->
+    <section id="news">
+        <div class="news-heading">
+            
+            <h3 class="styled-title" data-title="Latest Blog Posts">Latest Blog Posts</h3>
+            
+            
+        </div>
+        <div class="l-news container">
+            <div class="l-news1">
+                <div class="news1-img">
+                    <img src="imges/blog (1).jpg" alt="img">
+                </div>
+                <div class="news1-conte">
+                    <div class="date-news1">
+                        <p><i class='bx bxs-calendar'></i> 9 November 2024</p>
+                        <h4>What Curling Irons Are The Best Ones</h4>
+                        <a href="https://www.bigstarcopywriting.com/blog/content-marketing/fashion-blog-ideas/" target="_blank">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="l-news2">
+                <div class="news2-img">
+                    <img src="imges/blog (2).jpeg" alt="img">
+                </div>
+                <div class="news2-conte">
+                    <div class="date-news2">
+                        <p><i class='bx bxs-calendar'></i> 16 November 2024</p>
+                        <h4>The Health Benefits Of Sunglasses</h4>
+                        <a href="https://www.bigstarcopywriting.com/blog/content-marketing/fashion-blog-ideas/" target="_blank">read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="l-news3">
+                <div class="news3-img">
+                    <img src="imges/blog (1).jpeg" alt="img">
+                </div>
+                <div class="news3-conte">
+                    <div class="date-news3">
+                        <p><i class='bx bxs-calendar'></i> 23 December 2024</p>
+                        <h4>Eternity Bands Do Last Forever</h4>
+                        <a href="https://www.bigstarcopywriting.com/blog/content-marketing/fashion-blog-ideas/" target="_blank">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- ===============================END-BLOG================================= -->
+    
+    
+    <!-- ===============================START-TESTIMONIA-OR-FEEDBACK================================= -->
+
+    
+    <!-- client section -->
+    <section class="client_section layout_padding-bottom" id="Testimonial">
+        <div class="container">
+          <div class="heading_container text-center mb-4">
+            <h3 class="styled-title" data-title="Testimonial">Testimonial</h3>
+          </div>
+          <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="box d-flex align-items-center shadow-sm p-4">
+                  <div class="img-box rounded-circle border border-5 border-danger me-4 overflow-hidden">
+                    <img src="imges/TESEMONIA (2).jpeg" alt="samar" class="img-fluid" />
+                  </div>
+                  <div class="detail-box">
+                    <div class="name text-start mb-2">
+                      <i class="fa fa-quote-left fa-lg" style="color: #ff6f61;"></i>
+                      <h6 class="mt-2" style="color: #ff6f61;">Samar</h6>
+                    </div>
+                    <p>
+                      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="carousel-item">
+                <div class="box d-flex align-items-center shadow-sm p-4">
+                  <div class="img-box rounded-circle border border-5 border-danger me-4 overflow-hidden">
+                    <img src="imges/TESEMONIA (1).jpeg" alt="Azzam Khaled" class="img-fluid" />
+                  </div>
+                  <div class="detail-box">
+                    <div class="name text-start mb-2">
+                      <i class="fa fa-quote-left fa-lg" style="color: #ff6f61;"></i>
+                      <h6 class="mt-2" style="color: #ff6f61;">Azzam Khaled</h6>
+                    </div>
+                    <p>
+                      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+      
+              <div class="carousel-item">
+                <div class="box d-flex align-items-center shadow-sm p-4">
+                  <div class="img-box rounded-circle border border-5 border-danger me-4 overflow-hidden">
+                    <img src="imges/TESEMONIA (1).jpg" alt="John" class="img-fluid" />
+                  </div>
+                  <div class="detail-box">
+                    <div class="name text-start mb-2">
+                      <i class="fa fa-quote-left fa-lg" style="color: #ff6f61;"></i>
+                      <h6 class="mt-2" style="color: #ff6f61;">John</h6>
+                    </div>
+                    <p>
+                      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="carousel_btn-container d-flex justify-content-center mt-3">
+              <button class="carousel-control-prev bg-danger text-white rounded-circle border-0 me-2" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <i class="fa fa-chevron-left"></i>
+              </button>
+              <button class="carousel-control-next bg-danger text-white rounded-circle border-0" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <i class="fa fa-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- ===============================END-TESTIMONIA-OR-FEEDBACK================================= -->
+
+    <!-- ===============================START-FAQ-ACCORDION================================= -->
+     
+    <section class="accordion" id="FAQ">
+      <h2 class="styled-title" data-title="F A Q">F A Q</h2>
+      <div class="container">
+          <div class="parint-content">
+              <div class="title-parint">
+                  <h4>What is your return policy?</h4>
+                  <div id="plus" onclick="toggleAccordion(this)">+</div>
+              </div>
+              <p class="content-acoordion">
+                  We offer a 30-day return policy for all products. Please contact our support for more details.
+              </p>
+          </div>
+          <div class="parint-content">
+              <div class="title-parint">
+                  <h4>Do you offer international shipping?</h4>
+                  <div id="plus" onclick="toggleAccordion(this)">+</div>
+              </div>
+              <p class="content-acoordion">
+                  Yes, we ship worldwide. Shipping fees and delivery times vary by destination
+              </p>
+          </div>
+          <div class="parint-content">
+              <div class="title-parint">
+                  <h4>How can I track my order?</h4>
+                  <div id="plus" onclick="toggleAccordion(this)">+</div>
+              </div>
+              <p class="content-acoordion">
+                  Once your order is shipped, you'll receive a tracking number via email. Use this number to track your shipment.
+              </p>
+          </div>
+      </div>
+  </section>
+  
+    <!-- ===============================END-FAQ-ACCORDION================================= -->
+    <!-- ===============================START-CONECT================================= -->
+    <section id="contact">
+        <div class="contact container">
+            <h2 class="styled-title" data-title="Contact Us">Contact Us</h2>
+
+        <form action="/" method="POST">
+            <div class="form">
+                <div class="form-txt">
+                    <h1>Contact Us</h1>
+                    <span>
+                        If you have any questions or need assistance, feel free to reach out to us
+                    </span>
+                    <h3>EGYPT</h3>
+                    <p>195 E Parker Square Dr, Parker, CO 801<br>+43 982-314-0958</p>
+                    <h3>Cairo</h3>
+                    <p>HW95+C9C, Lorem ipsum dolor sit.<br>411014</p>
+                </div>
+                <div class="form-details">
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <textarea name="message" id="message" cols="52" rows="7" placeholder="Message" required></textarea>
+                    <button>SEND MESSAGE</button>
+
+                </div>
+            </div>
+        </form>
+    </div>
+    </section>
+    <!-- ===============================END-CONECT================================= -->
+    <!-- ===============================START-FOOTER================================= -->
+
+
+    <footer>
+        <div class="footer-container container">
+            <div class="content_1">
+              <h1 style="color: aliceblue;">Shop By Samar</h1>
+                <p>The customer is at the heart of our<br>unique business model, which includes<br>design.</p>
+                <img src="imges/payment.png" alt="cards">
+            </div>
+            <div class="content_2">
+                <h4>SHOPPING</h4>
+                <a href="#shop">Collection</a>
+                <a href="#Clothes">Clothing Store</a>
+                <a href="#Shoes">Trending Shoes</a>
+                <a href="#Accessories">Accessories</a>
+               
+            </div>
+
+   
+            <div class="content_3">
+                <h4> Quick Links</h4>
+                <a href="ProductPages.html">Home</a>
+                <a href="#shop">Shop</a>
+                <a href="#news">Blog</a>
+                <a href="#Testimonial">Testimonial</a>
+                <a href="#FAQ">FAQ</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+            <div class="content_4">
+                <h4>NEWLETTER</h4>
+                <p>Be the first to know about new<br>arrivals, look books, sales & promos!</p>
+                <div class="f-mail">
+                    <input type="email" placeholder="Your Email">
+                    <i class='bx bx-envelope'></i>
+                </div>
+                
+            <div class="scroll-buttons">
+                <i class="fa-solid fa-arrow-up" id="scrollToTop"></i>
+                <i class="fa-solid fa-arrow-down" id="scrollToBottom"></i>
+            </div>
+                <hr>
+            </div>
+        </div>
+  
+        <div class="f-design">
+            <div class="f-design-txt container">
+                <p>Copyright &copy; 2025 Design By Samar Khaled</p>
+            </div>
+        </div>
+    </footer>
+      <!-- ===============================END-FOOTER================================= -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
